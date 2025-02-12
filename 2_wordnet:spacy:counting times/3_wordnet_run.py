@@ -41,6 +41,6 @@ if __name__ == "__main__":
         print(term)
     
     # Write the terms to a CSV file
-    csv_filename = "people_related_terms_aug_5_2024.csv"
+    csv_filename = "human_terms.csv"
     write_to_csv(people_related_terms, csv_filename)
     print(f"Terms have been written to {csv_filename}")

@@ -1,4 +1,4 @@
-from pytube import Playlist
+from pytubefix import Playlist
 import os
 import pandas as pd
 
@@ -9,7 +9,7 @@ def download_audio_from_playlist(playlist_url, channel_name, playlist_title):
         playlist = Playlist(playlist_url)
         
         # Create the output directory based on the channel name and playlist title
-        output_dir = f'/Users/hadibhidya/Desktop/new_samples/{channel_name}/{playlist_title}'
+        output_dir = f'/YOUR_SAMPLE_DIRECTORY/{channel_name}/{playlist_title}'
         if not os.path.exists(output_dir):
             os.makedirs(output_dir)
         
@@ -29,7 +29,7 @@ def download_audio_from_playlist(playlist_url, channel_name, playlist_title):
 
 
 # Load the CSV file
-file_path = '/Users/hadibhidya/Downloads/Sample Suggestions - Sheet1 PBS Only.csv'
+file_path = '1_download vidoes and transcribe/example.csv'
 df = pd.read_csv(file_path)
 
 # Iterate through each row in the dataframe and download the audio for each playlist
