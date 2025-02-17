@@ -60,7 +60,7 @@ def write_csv(channel_data, output_file):
             })
 
 if __name__ == "__main__":
-    base_directory = "/Users/hadibhidya/Desktop/new_samples"
+    base_directory = "/YOUR_SAMPLE_DIRECTORY"
     output_csv = "channel_statistics.csv"
     
     channel_statistics = process_directory(base_directory)

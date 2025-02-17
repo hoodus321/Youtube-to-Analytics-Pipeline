@@ -9,7 +9,7 @@ from pysrt import open as open_srt
 nlp = spacy.load('en_core_web_sm')
 
 # Define the root directory path where the SRT files are located
-root_directory_path = '/Users/hadibhidya/Desktop/new_samples'  # Replace with your actual root directory path
+root_directory_path = '/YOUR_SAMPLE_DIRECTORY'  # Replace with your actual root directory path
 
 # Function to read SRT file and extract text
 def read_srt_file(file_path):
@@ -42,6 +42,6 @@ frequent_noun_phrases = {phrase: count for phrase, count in noun_phrase_counts.i
 df_noun_phrases = pd.DataFrame(list(frequent_noun_phrases.items()), columns=['Noun Phrase', 'Count'])
 
 # Save the frequent noun phrases to a CSV file for manual labeling
-df_noun_phrases.to_csv('frequent_noun_phrases_1_occurences_aug_5_2024.csv', index=False)
+df_noun_phrases.to_csv('frequent_noun_phrases.csv', index=False)
 
-print("Frequent noun phrases extracted and saved to 'frequent_noun_phrases.csv'.")
+print("Frequent noun phrases extracted and saved!")

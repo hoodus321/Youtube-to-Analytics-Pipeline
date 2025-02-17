@@ -92,8 +92,8 @@ def iterate_through_directory(input_dir, output_dir):
                 create_txt_file(output_dir, relative_path, expanded_text)
 
 # Set your input and output directory paths
-input_directory = '/Users/hadibhidya/Desktop/expanded_contractions_library_samples'
-output_directory = '/Users/hadibhidya/Desktop/expanded_contractions_library_w_spacy'
+input_directory = '/YOUR_EXPANDED_CONTRACTIONS_DIRECTORY'
+output_directory = '/YOUR_EXPANDED_CONTRACTIONS_DIRECTORY_W_SPACY'
 
 # Call the function to iterate and process all text files
 iterate_through_directory(input_directory, output_directory)

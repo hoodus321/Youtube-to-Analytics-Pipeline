@@ -37,7 +37,7 @@ def find_duplicate_filenames(root_dir, output_csv):
     return duplicates
 
 # Example usage:
-root_directory = "/Users/hadibhidya/Desktop/MAKING DATA SCIENCE COUNT/Paper/5_gpt2.0_resolved_expanded_contractions_library_w_spacy"
+root_directory = "/YOUR_EXPANDED_CONTRACTIONS_DIRECTORY_W_SPACY"
 output_csv_file = "duplicates.csv"
 duplicate_files = find_duplicate_filenames(root_directory, output_csv_file)
 

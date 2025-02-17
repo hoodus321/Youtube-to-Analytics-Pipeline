@@ -2,7 +2,7 @@ import os
 import openai
 
 # Set your OpenAI API key here
-openai.api_key = "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"
+openai.api_key = "API_KEY"
 
 
 def resolve_coreferences(text):
@@ -53,7 +53,7 @@ def process_directory(input_dir, output_dir):
                 print(f"Processed file: {input_file_path} -> {output_file_path}")
 
 if __name__ == "__main__":
-    input_home = "/Users/hadibhidya/Desktop/expanded_contractions_library_w_spacy"  # Set the path to the input directory structure
-    output_home = "/Users/hadibhidya/Desktop/gpt2.0_resolved_expanded_contractions_library_w_spacy"  # Set the path to the output directory structure
+    input_home = "/YOUR_EXPANDED_CONTRACTIONS_DIRECTORY_W_SPACY"  # Set the path to the input directory structure
+    output_home = "/YOUR_EXPANDED_CONTRACTIONS_DIRECTORY_W_SPACY_RESOLVED"  # Set the path to the output directory structure
 
     process_directory(input_home, output_home)

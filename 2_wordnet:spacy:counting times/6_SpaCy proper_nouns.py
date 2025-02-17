@@ -9,7 +9,7 @@ from pysrt import open as open_srt
 nlp = spacy.load('en_core_web_sm')
 
 # Define the root directory path where the SRT files are located
-root_directory_path = '/Users/hadibhidya/Desktop/new_samples/PragerU'  # Replace with your actual root directory path
+root_directory_path = '/YOUR_SAMPLE_DIRECTORY'  # Replace with your actual root directory path
 
 # Function to read SRT file and extract text
 def read_srt_file(file_path):
@@ -39,6 +39,6 @@ proper_noun_counts = Counter(proper_nouns)
 df_proper_nouns = pd.DataFrame(list(proper_noun_counts.items()), columns=['Proper Noun', 'Count'])
 
 # Save the proper nouns to a CSV file
-df_proper_nouns.to_csv('proper_nouns_prageru_aug_12_2024.csv', index=False)
+df_proper_nouns.to_csv('proper_nouns.csv', index=False)
 
-print("Proper nouns extracted and saved to 'proper_nouns_aug_5_2024.csv'.")
+print("Proper nouns extracted and saved!")

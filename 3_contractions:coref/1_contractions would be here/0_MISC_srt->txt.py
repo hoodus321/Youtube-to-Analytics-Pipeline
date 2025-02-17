@@ -34,8 +34,8 @@ def iterate_through_directory(input_dir, output_dir):
                 create_txt_file(output_dir, relative_path, srt_text)
 
 # Set your input and output directory paths
-input_directory = '/Users/hadibhidya/Desktop/new_samples'
-output_directory = '/Users/hadibhidya/Desktop/text_samples'
+input_directory = '/YOUR_SAMPLE_DIRECTORY'
+output_directory = '/YOUR_NEW_DIRECTORY'
 
 # Call the function to iterate and process all SRT files
 iterate_through_directory(input_directory, output_directory)

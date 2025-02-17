@@ -39,6 +39,6 @@ def expand_contractions_in_directory(input_dir, output_dir):
 
                 print(f"Processed and saved: {output_file_path}")
 
-input_dir = '/Users/hadibhidya/Desktop/og_samples'  # Path to the input directory containing SRT files
-output_dir = '/Users/hadibhidya/Desktop/expanded_contractions_samples'  # Path to the output directory to save modified SRT files
+input_dir = '/YOUR_NEW_DIRECTORY'  # Path to the input directory containing SRT files
+output_dir = '/YOUR_EXPANDED_CONTRACTIONS_DIRECTORY'  # Path to the output directory to save modified SRT files
 expand_contractions_in_directory(input_dir, output_dir)
