@@ -13,7 +13,7 @@ import time
 nlp = spacy.load('en_core_web_sm')
 
 # Define the root directory path where the TXT files are located
-root_directory_path = '/Users/hadibhidya/Desktop/gpt_resolved_expanded_contractions_library_w_spacy_updated'  # Replace with your actual root directory path
+root_directory_path = '/YOUR_EXPANDED_CONTRACTIONS_DIRECTORY_W_SPACY_RESOLVED_UPDATED'  # Replace with your actual root directory path
 
 # Function to read TXT file and extract text
 def read_txt_file(file_path):

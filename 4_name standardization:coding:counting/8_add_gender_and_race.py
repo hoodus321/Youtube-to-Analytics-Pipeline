@@ -96,8 +96,8 @@ def process_csv(input_file, output_file):
             writer.writerow(row)
 
 # Specify file paths here
-input_file = '/Users/hadibhidya/Desktop/PragerU-Project/famous_names_by_channel_2024-11-25_20-58-56.csv'  # Replace with your input CSV file path
-output_file = '/Users/hadibhidya/Desktop/PragerU-Project/famous_names_by_channel_w_gender_and_race_2024-11-25_20-58-56.csv'  # Replace with your desired output CSV file path
+input_file = 'famous_names_by_channel_{current_time}.csv'  # Replace with your input CSV file path
+output_file = 'famous_names_by_channel_w_gender_and_race_{current_time}.csv'  # Replace with your desired output CSV file path
 
 # Run the process
 process_csv(input_file, output_file)

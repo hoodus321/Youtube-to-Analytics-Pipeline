@@ -213,8 +213,8 @@ def main():
     """
     Main function to specify input and output directories for processing.
     """
-    input_dir = "/Users/hadibhidya/Desktop/gpt_resolved_expanded_contractions_library_w_spacy"
-    output_dir = "/Users/hadibhidya/Desktop/gpt_resolved_expanded_contractions_library_w_spacy_updated"
+    input_dir = "/YOUR_EXPANDED_CONTRACTIONS_DIRECTORY_W_SPACY_RESOLVED"
+    output_dir = "/YOUR_EXPANDED_CONTRACTIONS_DIRECTORY_W_SPACY_RESOLVED_UPDATED"
 
     # Create the output directory if it doesn't exist
     if not os.path.exists(output_dir):
