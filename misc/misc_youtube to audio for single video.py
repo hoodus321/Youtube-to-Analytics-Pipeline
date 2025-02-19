@@ -22,7 +22,7 @@ def download_audio_from_video(video_url, output_dir):
 
 # Define the video URL and output directory
 video_url = 'https://www.youtube.com/watch?v=PlFrECGcMSY&ab_channel=PBSKIDS'
-output_dir = '/Users/hadibhidya/Desktop/'
+output_dir = 'PATH'
 
 # Call the function to download the audio
 download_audio_from_video(video_url, output_dir)
