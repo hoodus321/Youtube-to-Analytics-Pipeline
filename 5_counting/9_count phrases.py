@@ -43,10 +43,10 @@ def count_terms_in_directory(csv_path, directory):
     df['Counts'] = df['Normalized'].map(term_counts)
     
     # Save the updated CSV
-    output_path = os.path.splitext(csv_path)[0] + '_with_counts_Khan_Academy.csv'
+    output_path = os.path.splitext(csv_path)[0] + '_with_counts.csv'
     df.to_csv(output_path, index=False)
     
     print(f"Updated CSV saved to {output_path}")
 
 # Example usage:
-count_terms_in_directory('/Users/hadibhidya/Desktop/PragerU-Project/5_counting/terms.csv', '/Users/hadibhidya/Desktop/MAKING DATA SCIENCE COUNT/Paper/5_gpt2.0_resolved_expanded_contractions_library_w_spacy/Khan Academy')
+count_terms_in_directory('terms.csv', '/YOUR_EXPANDED_CONTRACTIONS_DIRECTORY_W_SPACY_RESOLVED_UPDATED')
